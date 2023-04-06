@@ -1,0 +1,188 @@
+
+        * {
+            margin: 2px;
+        }
+
+        .insta img {
+            height: 60px;
+            width: 60px;
+        }
+
+        .logo img {
+            padding-top: 2px;
+            height: 60px;
+            width: 150px;
+        }
+
+        .Instagram {
+            display: flex;
+            /* justify-content: space-between; */
+        }
+
+        .details span {
+            font-size: 30px;
+            font-style: normal;
+            font-weight: bold;
+        }
+
+        .details {
+            text-align: right;
+            font-size: 19px;
+        }
+
+        .top-content {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .bill2 {
+            border-top: 2px solid purple;
+        }
+
+        .top-middle {
+            display: flex;
+            justify-content: space-between;
+            font-size: 19px;
+        }
+
+        .font {
+            font-family: Brush Script MT;
+
+        }
+
+        .inv {
+            text-align: right;
+            font-size: 19px;
+        }
+
+        .invoice {
+            text-align: right;
+            font-size: 19px;
+        }
+
+        .content-table {
+            border-collapse: collapse;
+            margin: 5px 0;
+            font-size: 0.9em;
+            min-width: 400px;
+        }
+
+        .content-table thead tr {
+            background-color: palevioletred;
+            color: white;
+            text-align: left;
+            font-weight: bold;
+        }
+
+        .content-table th,
+        .content-table td {
+            padding: 12px 20px 12px 20px;
+            text-align: left;
+            font-size: 19px;
+        }
+
+        .content-table tbody tr {
+            border-bottom: 1px solid blue;
+        }
+
+        .content-table tr th {
+            width: 40%;
+        }
+
+        .table-footer {
+            text-align: right;
+            border-collapse: collapse;
+            /* padding-left: 86%; */
+        }
+
+        .table-footer tr td {
+            width: 8cm;
+            /* width: 42%; */
+            padding-right: 20px;
+            font-size: 19px;
+        }
+
+        .total-section {
+            position: absolute;
+            right: 20px;
+            font-size: 19px;
+            margin-top: 5px;
+            padding-right: 5px;
+            width: 372px;
+        }
+
+        .sub,
+        .tax,
+        .CGST,
+        .SGST,
+        .total {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 5px;
+        }
+
+        .total {
+            border-top: 1px solid black;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .last-element {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .underline {
+            border-bottom: 2px solid rgb(255, 0, 242);
+        }
+
+        .bank-details {
+            width: 263px;
+            font-size: 16px;
+            /* text-align: left; */
+        }
+
+        .bank-name,
+        .bank,
+        .Accoumt,
+        .IFSC,
+        .branch {
+            display: flex;
+            /* justify-content: space-between; */
+        }
+
+        .bottom-section {
+            display: flex;
+
+        }
+
+        .bank_information {
+            display: flex;
+            padding-left: 55px;
+        }
+
+        .bank-details {
+            font-size: 19px;
+        }
+
+        .bank-section-details {
+            font-size: 19px;
+            font-weight: bold;
+        }
+
+        .pay-using {
+            font-size: 19px;
+        }
+
+        .bank-details .bank-name {
+            font-weight: bold;
+        }
+
+        .bottom-section .pay-using {
+            font-weight: bold;
+        }
+
+        .end_part {
+            display: flex;
+            justify-content: space-between;
+        }
